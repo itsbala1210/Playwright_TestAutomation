@@ -1,36 +1,38 @@
-Playwright_TestAutomation is a Java-based test automation framework built using Playwright, Cucumber (BDD), and TestNG.
-The framework follows the Page Object Model (POM) design pattern to ensure maintainability, reusability, and scalability of test code.
+# 🚀 Playwright_TestAutomation
 
-🔹 Key Features
+✨ **Playwright_TestAutomation** is a Java-based test automation framework built using **Playwright**, **Cucumber (BDD)**, and **TestNG**.  
+It follows the **Page Object Model (POM)** design pattern to ensure **maintainability**, **reusability**, and **scalability** of test code.
 
-Playwright with Java for fast and reliable browser automation
+---
 
-Cucumber BDD for readable Gherkin-based test scenarios
+## ✨ Key Features
 
-Page Object Model (POM) for clean separation of test logic
+✔️ Playwright with Java for fast and reliable browser automation  
+✔️ Cucumber BDD for readable Gherkin-based test scenarios  
+✔️ Page Object Model (POM) for clean separation of test logic  
+✔️ Configuration-driven execution using `config.properties`  
+✔️ Hooks for test setup and teardown  
+✔️ Allure Reporting for rich and detailed test execution reports  
+✔️ Automatic screenshot capture on test failures  
+✔️ Utility support for encryption and configuration management  
 
-Config-driven execution using config.properties
+---
 
-Hooks for test setup and teardown
+## 🗂️ Project Structure Highlights
 
-Allure Reporting for rich test execution reports
+📁 **Pages** – Page Object classes  
+📁 **StepDefinitions** – Cucumber step implementation classes  
+📁 **Runner** – Test execution entry point  
+📁 **Features** – Gherkin feature files  
+📁 **Utilities & Helpers** – Common reusable utility classes  
+📁 **resources** – Configuration files and reporting setup  
 
-Screenshot capture on failures
+---
 
-Utility support for encryption and configuration management
+## ▶️ Usage
 
-🔹 Project Structure Highlights
+🎯 This framework is suitable for:
 
-Pages – Page Object classes
-
-StepDefinitions – Cucumber step implementations
-
-Runner – Test execution entry point
-
-Features – Gherkin feature files
-
-Utilities & Helpers – Common reusable utilities
-
-resources – Configuration and reporting setup
-
-This framework is suitable for UI test automation, regression testing, and CI/CD integration.
+- UI test automation  
+- Regression testing  
+- CI/CD pipeline integration  
